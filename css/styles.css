@@ -1,0 +1,103 @@
+/* main stuff */
+html {
+    height: 100%;
+    background-color: black;
+}
+body {
+    height: 100%;
+    margin: 0 0 0 0;
+    background-color: black; 
+}
+/* header  and nav */
+.parallaxheader {
+    height: 100%;
+    background-image: url("../images/bigpicture.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bgphotobox {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 100%;
+    text-align: center;
+}
+#bgphototext {
+    background-color: rgba(255, 255, 255, 0%);
+    color: white;
+    padding: 10px;
+    font-size: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+}
+#bgphototext .smaller {
+    font-size: 35px;
+}
+/* animation for title */
+@keyframes w1anim {
+    0%{
+        opacity: .6;
+    }
+    45%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    55%{
+        opacity: 1;
+    }
+    100% {
+        opacity: .6;
+    }
+}
+/* secondary header */
+.header2 {
+    margin: 30px;
+    text-align: center;
+}
+.header2 h1 {
+    font-size: 50px;
+    color: white;
+}
+.header2 h2 {
+    font-size: 20px;
+    color: #999;
+}
+/* main and other */
+.main{
+    background-color: gray;
+    margin: 0px;
+    padding: 20px 30px;
+}
+/* footer */
+.footer {
+    padding: 30px;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+}
+.footer small {
+    color: white;
+    text-align: left;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    font-family: 'arial';
+    font-size: 20px;
+}
+
+img {
+    width: 40%;
+    float: left;
+    
+}
+.space {
+    height: 150px;
+}
